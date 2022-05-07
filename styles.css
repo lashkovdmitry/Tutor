@@ -1,8 +1,51 @@
-h1 {
-    color: orange;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-p {
+.header {
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.title {
+    color: rgb(55, 55, 53);
+    text-align: center;
+}
+
+.main {
+    position: relative;
+}
+
+.bigData {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    width: 50ch;
+    font-size: 40px;
     font-style: italic;
-    font-weight: bold;    
+    font-weight: bold; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    color: white;
+    background-color: darkgreen;
+}
+
+#linkToGitHub {
+    display: block;
+    color: white;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-align: center;
 }
